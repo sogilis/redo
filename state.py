@@ -137,7 +137,7 @@ def relpath(t, base):
 
 
 def warn_override(name):
-    warn('%s - you modified it; skipping\n' % name)
+    warn('%s - you modified it; erasing your local changes\n' % name)
 
 
 _file_cols = ['rowid', 'name', 'is_generated', 'is_override',
